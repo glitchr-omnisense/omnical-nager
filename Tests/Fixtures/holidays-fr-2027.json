@@ -1,0 +1,112 @@
+[
+ {
+  "date": "2027-01-01",
+  "name": "New Year's Day",
+  "countryCode": "FR",
+  "nationalHoliday": true,
+  "subdivisionCodes": null,
+  "holidayTypes": [
+   "Public"
+  ]
+ },
+ {
+  "date": "2027-03-29",
+  "name": "Easter Monday",
+  "countryCode": "FR",
+  "nationalHoliday": true,
+  "subdivisionCodes": null,
+  "holidayTypes": [
+   "Public"
+  ]
+ },
+ {
+  "date": "2027-05-01",
+  "name": "Labour Day",
+  "countryCode": "FR",
+  "nationalHoliday": true,
+  "subdivisionCodes": null,
+  "holidayTypes": [
+   "Public"
+  ]
+ },
+ {
+  "date": "2027-05-06",
+  "name": "Ascension Day",
+  "countryCode": "FR",
+  "nationalHoliday": true,
+  "subdivisionCodes": null,
+  "holidayTypes": [
+   "Public"
+  ]
+ },
+ {
+  "date": "2027-05-08",
+  "name": "Victory in Europe Day",
+  "countryCode": "FR",
+  "nationalHoliday": true,
+  "subdivisionCodes": null,
+  "holidayTypes": [
+   "Public"
+  ]
+ },
+ {
+  "date": "2027-05-17",
+  "name": "Whit Monday",
+  "countryCode": "FR",
+  "nationalHoliday": true,
+  "subdivisionCodes": null,
+  "holidayTypes": [
+   "Public"
+  ]
+ },
+ {
+  "date": "2027-07-14",
+  "name": "Bastille Day",
+  "countryCode": "FR",
+  "nationalHoliday": true,
+  "subdivisionCodes": null,
+  "holidayTypes": [
+   "Public"
+  ]
+ },
+ {
+  "date": "2027-08-15",
+  "name": "Assumption Day",
+  "countryCode": "FR",
+  "nationalHoliday": true,
+  "subdivisionCodes": null,
+  "holidayTypes": [
+   "Public"
+  ]
+ },
+ {
+  "date": "2027-11-01",
+  "name": "All Saints' Day",
+  "countryCode": "FR",
+  "nationalHoliday": true,
+  "subdivisionCodes": null,
+  "holidayTypes": [
+   "Public"
+  ]
+ },
+ {
+  "date": "2027-11-11",
+  "name": "Armistice Day",
+  "countryCode": "FR",
+  "nationalHoliday": true,
+  "subdivisionCodes": null,
+  "holidayTypes": [
+   "Public"
+  ]
+ },
+ {
+  "date": "2027-12-25",
+  "name": "Christmas Day",
+  "countryCode": "FR",
+  "nationalHoliday": true,
+  "subdivisionCodes": null,
+  "holidayTypes": [
+   "Public"
+  ]
+ }
+]

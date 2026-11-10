@@ -1,0 +1,26 @@
+{
+    "$schema": "https://github.com/glitchr-omnisense/contracts/blob/1.x/resources/usage-policy.schema.json",
+    "provider": "nager",
+    "rateLimits": [],
+    "rights": {
+        "commercial": "contract",
+        "openSourceRequired": false,
+        "caching": {"permission": "unknown", "maxTtl": null},
+        "storage": "unknown",
+        "redistribution": "forbidden",
+        "attribution": {"required": false, "text": null, "url": "https://nagerholidays.com", "where": []},
+        "licence": null
+    },
+    "requirements": {
+        "key": false,
+        "userAgent": {"required": false, "pattern": null}
+    },
+    "provenance": {
+        "terms": "https://nagerholidays.com/legal/termsofservice",
+        "policy": "https://nagerholidays.com/api",
+        "verifiedAt": "2026-11-10",
+        "declaredBy": "maintainer",
+        "contact": "https://github.com/nager/Nager.Date/issues",
+        "notes": "\"For commercial purposes we require active sponsorship\" (https://github.com/sponsors/nager): commercial use is by agreement (a site says usage: {commercial: true, contract: true} once it sponsors). \"It is not allowed to use the holiday information to publish or operate your own holiday portal\" (redistribution forbidden). The API page says no rate limits and unlimited queries (rateLimits: none). The terms (last updated 2023-09-15) say nothing on attribution, caching or storage; the answers carry Cache-Control: public, max-age=604800. Nager.Date moved from date.nager.at to nagerholidays.com; this package calls API v4 (/api/v4/Holidays/{country}/{year}): v3 ends on 2027-01-31. v4 names holidays in English only, and its subdivisionCodes are ISO 3166-2. The Docker image and the NuGet package need a licence key (sponsors get one); base_uri points at a self-hosted instance. An unknown country is a 404 (no holiday here)."
+    }
+}

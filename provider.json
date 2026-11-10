@@ -1,0 +1,32 @@
+{
+    "$schema": "https://github.com/glitchr-omnisense/omnical/blob/1.x/resources/declarative-provider.schema.json",
+    "name": "nager",
+    "title": "Nager.Date",
+    "family": "omnical",
+    "capabilities": ["holidays"],
+    "baseUri": "https://nagerholidays.com/api/v4",
+    "auth": {"type": "none"},
+    "headers": {"Accept": "application/json"},
+    "describe": {
+        "countries": [],
+        "regions": true,
+        "types": ["public", "bank", "school", "authorities", "optional", "observance"]
+    },
+    "endpoints": {
+        "holidays": {
+            "path": "/Holidays/{country}/{year}",
+            "split": "year",
+            "map": {
+                "date": "/date",
+                "name": "/name",
+                "language": {"const": "en"},
+                "country": "/countryCode",
+                "nationwide": "/nationalHoliday",
+                "regions": {"pointer": "/subdivisionCodes", "transform": "list"},
+                "types": {"pointer": "/holidayTypes", "transform": ["list", "lower"]}
+            },
+            "errors": {"404": "empty"}
+        }
+    },
+    "policy": "policy.json"
+}
